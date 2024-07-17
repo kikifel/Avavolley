@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Inscripción - Avavolley</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
     <header>
         <h1>Avavolley</h1>
         <nav>
@@ -20,6 +17,17 @@
             </ul>
         </nav>
         <div>
+            <button id="logoutButton" style="display:none;" onclick="logout()">Log Out</button>
+            <button onclick="goBack()">Volver</button>
+        </div>
+    </header>
+</head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Avavolley</h1>
+               <div>
             <button id="logoutButton" onclick="logout()">Log Out</button>
             <button onclick="goBack()">Volver</button>
         </div>

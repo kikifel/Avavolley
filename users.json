@@ -1,0 +1,63 @@
+[
+    {
+        "username": "Lombi",
+        "password": "password123",
+        "role": "admin",
+        "registeredDate": "2024-07-17"
+    },
+    {
+        "username": "Kiks",
+        "password": "password123",
+        "role": "admin",
+        "registeredDate": "2024-07-17"
+    },
+    {
+        "username": "Mica",
+        "password": "password123",
+        "role": "admin",
+        "registeredDate": "2024-07-17"
+    },
+    {
+        "username": "Chris",
+        "password": "password123",
+        "role": "admin",
+        "registeredDate": "2024-07-17"
+    },
+    {
+        "username": "Meli",
+        "password": "password123",
+        "role": "admin",
+        "registeredDate": "2024-07-17"
+    },
+    {
+        "username": "Fer",
+        "password": "password123",
+        "role": "admin",
+        "registeredDate": "2024-07-17"
+    },
+    {
+        "username": "LauG",
+        "password": "password123",
+        "role": "oldie",
+        "registeredDate": "2024-07-17"
+    },
+    {
+        "username": "Juan",
+        "password": "password123",
+        "role": "oldie",
+        "registeredDate": "2024-07-17"
+    },
+    {
+        "username": "Elis",
+        "password": "password123",
+        "role": "oldie",
+        "registeredDate": "2024-07-17"
+    },
+    {
+        "username": "Sofi",
+        "password": "password123",
+        "role": "oldie",
+        "registeredDate": "2024-07-17"
+    }
+    // Agrega los demás usuarios "oldies" y otros necesarios aquí
+]

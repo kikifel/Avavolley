@@ -1,34 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - Avavolley</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Avavolley Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="form.html">Formulario de Inscripción</a></li>
-                <li><a href="datos.html">Datos</a></li>
-                <li><a href="estadisticas.html">Estadísticas</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <form id="blogForm">
-            <label for="post">Post:</label>
-            <textarea id="post" name="post" required></textarea>
-            <label for="image">Imagen:</label>
-            <input type="file" id="image" name="image" accept="image/*">
-            <button type="submit">Publicar</button>
-        </form>
-        <div id="blogPosts"></div>
-    </main>
-    <script src="scripts.js"></script>
+    <h1>Blog de Avavolley</h1>
+    <form id="blogForm">
+        <label for="photo">Foto (URL):</label>
+        <input type="text" id="photo" name="photo" required>
+        <label for="text">Texto:</label>
+        <textarea id="text" name="text" required></textarea>
+        <button type="submit">Publicar</button>
+    </form>
+    <div id="blogPostsContainer">
+        <!-- Aquí se mostrarán las publicaciones del blog -->
+    </div>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

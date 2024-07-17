@@ -1,250 +1,281 @@
 [
     {
-        "username": "Ale",
-        "password": "Al3@l2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Alejandra",
-        "lastName": "Mas"
-    },
-    {
-        "username": "Albi",
-        "password": "Alb1B2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Alba",
-        "lastName": ""
-    },
-    {
-        "username": "Andy",
-        "password": "AndY2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Andrea",
-        "lastName": ""
-    },
-    {
-        "username": "Chris",
-        "password": "ChRis2024!",
-        "role": "admin",
-        "registeredDate": "2024-07-17",
-        "name": "Christian",
-        "lastName": "Lombardo"
-    },
-    {
-        "username": "Elis",
-        "password": "El1s2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Eliana",
-        "lastName": "Bodichon"
-    },
-    {
-        "username": "Fer",
-        "password": "F3r2024!",
-        "role": "admin",
-        "registeredDate": "2024-07-17",
-        "name": "Fernando",
-        "lastName": "Romero"
-    },
-    {
-        "username": "Fran",
-        "password": "Fr@n2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "",
-        "lastName": ""
-    },
-    {
-        "username": "Prueba3",
-        "password": "J@v2024!",
-        "role": "new",
-        "registeredDate": "2024-07-17",
-        "name": "",
-        "lastName": ""
-    },
-    {
-        "username": "Juli",
-        "password": "Juli2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Julian",
-        "lastName": "Martinez"
-    },
-    {
-        "username": "Juan",
-        "password": "Ju@n2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Juan",
-        "lastName": "Aguilera"
+        "username": "Lombi",
+        "name": "Nombre1",
+        "lastName": "Apellido1",
+        "email": "lombi@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "admin"
     },
     {
         "username": "Kiks",
-        "password": "Kiks2024!",
-        "role": "admin",
-        "registeredDate": "2024-07-17",
-        "name": "Nicky",
-        "lastName": "Feldman"
-    },
-    {
-        "username": "LauA",
-        "password": "L@uA2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Laura",
-        "lastName": "Abelaira"
-    },
-    {
-        "username": "LauG",
-        "password": "L@uG2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Laura",
-        "lastName": "Gonzalez"
-    },
-    {
-        "username": "Leo",
-        "password": "L30L2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Leandro",
-        "lastName": "Rodriguez Genaro"
-    },
-    {
-        "username": "Lio",
-        "password": "Li0L2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Lionel",
-        "lastName": "Munoz"
-    },
-    {
-        "username": "Lobo",
-        "password": "L0bo2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Adolfo",
-        "lastName": "Vaninetti"
-    },
-    {
-        "username": "Lombi",
-        "password": "L0mbi2024!",
-        "role": "admin",
-        "registeredDate": "2024-07-17",
-        "name": "Nahuel",
-        "lastName": "Lombardo"
-    },
-    {
-        "username": "Luqui",
-        "password": "Luqui2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Lucas",
-        "lastName": "Perazzi"
-    },
-    {
-        "username": "Luu",
-        "password": "Lu@2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "",
-        "lastName": ""
-    },
-    {
-        "username": "Maxi",
-        "password": "M@xi2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Maximiliano",
-        "lastName": "Contieri"
-    },
-    {
-        "username": "Meli",
-        "password": "Meli2024!",
-        "role": "admin",
-        "registeredDate": "2024-07-17",
-        "name": "Melina",
-        "lastName": "Lamura"
+        "name": "Nombre2",
+        "lastName": "Apellido2",
+        "email": "kiks@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "admin"
     },
     {
         "username": "Mica",
-        "password": "Mic@2024!",
-        "role": "admin",
-        "registeredDate": "2024-07-17",
-        "name": "Micaela",
-        "lastName": ""
+        "name": "Nombre3",
+        "lastName": "Apellido3",
+        "email": "mica@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "admin"
     },
     {
-        "username": "Nachitis",
-        "password": "N@chit2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Ignacio",
-        "lastName": ""
+        "username": "Chris",
+        "name": "Nombre4",
+        "lastName": "Apellido4",
+        "email": "chris@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "admin"
     },
     {
-        "username": "Prueba2",
-        "password": "P3dr02024!",
-        "role": "new",
-        "registeredDate": "2024-07-17",
-        "name": "",
-        "lastName": ""
+        "username": "Meli",
+        "name": "Nombre5",
+        "lastName": "Apellido5",
+        "email": "meli@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "admin"
     },
     {
-        "username": "Pil",
-        "password": "Pil2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Pilar",
-        "lastName": ""
+        "username": "Fer",
+        "name": "Nombre6",
+        "lastName": "Apellido6",
+        "email": "fer@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "admin"
     },
     {
-        "username": "Prueba1",
-        "password": "Ric@r2024!",
-        "role": "new",
-        "registeredDate": "2024-07-17",
-        "name": "",
-        "lastName": ""
+        "username": "LauG",
+        "name": "Nombre7",
+        "lastName": "Apellido7",
+        "email": "laug@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Juan",
+        "name": "Nombre8",
+        "lastName": "Apellido8",
+        "email": "juan@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Elis",
+        "name": "Nombre9",
+        "lastName": "Apellido9",
+        "email": "elis@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
     },
     {
         "username": "Sofi",
-        "password": "S0fi2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Sofía",
-        "lastName": ""
+        "name": "Nombre10",
+        "lastName": "Apellido10",
+        "email": "sofi@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
     },
     {
-        "username": "Tom",
-        "password": "T0m2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Tomás",
-        "lastName": ""
+        "username": "Luu",
+        "name": "Nombre11",
+        "lastName": "Apellido11",
+        "email": "luu@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
     },
     {
-        "username": "TomFG",
-        "password": "T0mFG2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "Tomás",
-        "lastName": "Fernández Gregoret"
+        "username": "Lobo",
+        "name": "Nombre12",
+        "lastName": "Apellido12",
+        "email": "lobo@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
     },
     {
-        "username": "Vani",
-        "password": "Van12024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "",
-        "lastName": ""
+        "username": "Maxi",
+        "name": "Nombre13",
+        "lastName": "Apellido13",
+        "email": "maxi@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Andy",
+        "name": "Nombre14",
+        "lastName": "Apellido14",
+        "email": "andy@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Albi",
+        "name": "Nombre15",
+        "lastName": "Apellido15",
+        "email": "albi@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Ale",
+        "name": "Nombre16",
+        "lastName": "Apellido16",
+        "email": "ale@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Nachitis",
+        "name": "Nombre17",
+        "lastName": "Apellido17",
+        "email": "nachitis@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Lio",
+        "name": "Nombre18",
+        "lastName": "Apellido18",
+        "email": "lio@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
     },
     {
         "username": "Vanis",
-        "password": "V@n1s2024!",
-        "role": "oldie",
-        "registeredDate": "2024-07-17",
-        "name": "",
-        "lastName": ""
+        "name": "Nombre19",
+        "lastName": "Apellido19",
+        "email": "vanis@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Pil",
+        "name": "Nombre20",
+        "lastName": "Apellido20",
+        "email": "pil@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Leo",
+        "name": "Nombre21",
+        "lastName": "Apellido21",
+        "email": "leo@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "LauA",
+        "name": "Nombre22",
+        "lastName": "Apellido22",
+        "email": "laua@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Juli",
+        "name": "Nombre23",
+        "lastName": "Apellido23",
+        "email": "juli@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Tom",
+        "name": "Nombre24",
+        "lastName": "Apellido24",
+        "email": "tom@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "TomFG",
+        "name": "Nombre25",
+        "lastName": "Apellido25",
+        "email": "tomfg@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Luqui",
+        "name": "Nombre26",
+        "lastName": "Apellido26",
+        "email": "luqui@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Fran",
+        "name": "Nombre27",
+        "lastName": "Apellido27",
+        "email": "fran@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Vani",
+        "name": "Nombre28",
+        "lastName": "Apellido28",
+        "email": "vani@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "oldie"
+    },
+    {
+        "username": "Prueba1",
+        "name": "Nombre29",
+        "lastName": "Apellido29",
+        "email": "prueba1@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "new"
+    },
+    {
+        "username": "Prueba2",
+        "name": "Nombre30",
+        "lastName": "Apellido30",
+        "email": "prueba2@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "new"
+    },
+    {
+        "username": "Prueba3",
+        "name": "Nombre31",
+        "lastName": "Apellido31",
+        "email": "prueba3@example.com",
+        "password": "Password123!",
+        "signupDate": "2023-01-01",
+        "role": "new"
     }
 ]

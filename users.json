@@ -1,63 +1,250 @@
 [
     {
-        "username": "Lombi",
-        "password": "password123",
-        "role": "admin",
-        "registeredDate": "2024-07-17"
+        "username": "Ale",
+        "password": "Al3@l2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Alejandra",
+        "lastName": "Mas"
     },
     {
-        "username": "Kiks",
-        "password": "password123",
-        "role": "admin",
-        "registeredDate": "2024-07-17"
+        "username": "Albi",
+        "password": "Alb1B2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Alba",
+        "lastName": ""
     },
     {
-        "username": "Mica",
-        "password": "password123",
-        "role": "admin",
-        "registeredDate": "2024-07-17"
+        "username": "Andy",
+        "password": "AndY2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Andrea",
+        "lastName": ""
     },
     {
         "username": "Chris",
-        "password": "password123",
+        "password": "ChRis2024!",
         "role": "admin",
-        "registeredDate": "2024-07-17"
-    },
-    {
-        "username": "Meli",
-        "password": "password123",
-        "role": "admin",
-        "registeredDate": "2024-07-17"
-    },
-    {
-        "username": "Fer",
-        "password": "password123",
-        "role": "admin",
-        "registeredDate": "2024-07-17"
-    },
-    {
-        "username": "LauG",
-        "password": "password123",
-        "role": "oldie",
-        "registeredDate": "2024-07-17"
-    },
-    {
-        "username": "Juan",
-        "password": "password123",
-        "role": "oldie",
-        "registeredDate": "2024-07-17"
+        "registeredDate": "2024-07-17",
+        "name": "Christian",
+        "lastName": "Lombardo"
     },
     {
         "username": "Elis",
-        "password": "password123",
+        "password": "El1s2024!",
         "role": "oldie",
-        "registeredDate": "2024-07-17"
+        "registeredDate": "2024-07-17",
+        "name": "Eliana",
+        "lastName": "Bodichon"
+    },
+    {
+        "username": "Fer",
+        "password": "F3r2024!",
+        "role": "admin",
+        "registeredDate": "2024-07-17",
+        "name": "Fernando",
+        "lastName": "Romero"
+    },
+    {
+        "username": "Fran",
+        "password": "Fr@n2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "",
+        "lastName": ""
+    },
+    {
+        "username": "Prueba3",
+        "password": "J@v2024!",
+        "role": "new",
+        "registeredDate": "2024-07-17",
+        "name": "",
+        "lastName": ""
+    },
+    {
+        "username": "Juli",
+        "password": "Juli2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Julian",
+        "lastName": "Martinez"
+    },
+    {
+        "username": "Juan",
+        "password": "Ju@n2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Juan",
+        "lastName": "Aguilera"
+    },
+    {
+        "username": "Kiks",
+        "password": "Kiks2024!",
+        "role": "admin",
+        "registeredDate": "2024-07-17",
+        "name": "Nicky",
+        "lastName": "Feldman"
+    },
+    {
+        "username": "LauA",
+        "password": "L@uA2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Laura",
+        "lastName": "Abelaira"
+    },
+    {
+        "username": "LauG",
+        "password": "L@uG2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Laura",
+        "lastName": "Gonzalez"
+    },
+    {
+        "username": "Leo",
+        "password": "L30L2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Leandro",
+        "lastName": "Rodriguez Genaro"
+    },
+    {
+        "username": "Lio",
+        "password": "Li0L2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Lionel",
+        "lastName": "Munoz"
+    },
+    {
+        "username": "Lobo",
+        "password": "L0bo2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Adolfo",
+        "lastName": "Vaninetti"
+    },
+    {
+        "username": "Lombi",
+        "password": "L0mbi2024!",
+        "role": "admin",
+        "registeredDate": "2024-07-17",
+        "name": "Nahuel",
+        "lastName": "Lombardo"
+    },
+    {
+        "username": "Luqui",
+        "password": "Luqui2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Lucas",
+        "lastName": "Perazzi"
+    },
+    {
+        "username": "Luu",
+        "password": "Lu@2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "",
+        "lastName": ""
+    },
+    {
+        "username": "Maxi",
+        "password": "M@xi2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Maximiliano",
+        "lastName": "Contieri"
+    },
+    {
+        "username": "Meli",
+        "password": "Meli2024!",
+        "role": "admin",
+        "registeredDate": "2024-07-17",
+        "name": "Melina",
+        "lastName": "Lamura"
+    },
+    {
+        "username": "Mica",
+        "password": "Mic@2024!",
+        "role": "admin",
+        "registeredDate": "2024-07-17",
+        "name": "Micaela",
+        "lastName": ""
+    },
+    {
+        "username": "Nachitis",
+        "password": "N@chit2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Ignacio",
+        "lastName": ""
+    },
+    {
+        "username": "Prueba2",
+        "password": "P3dr02024!",
+        "role": "new",
+        "registeredDate": "2024-07-17",
+        "name": "",
+        "lastName": ""
+    },
+    {
+        "username": "Pil",
+        "password": "Pil2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Pilar",
+        "lastName": ""
+    },
+    {
+        "username": "Prueba1",
+        "password": "Ric@r2024!",
+        "role": "new",
+        "registeredDate": "2024-07-17",
+        "name": "",
+        "lastName": ""
     },
     {
         "username": "Sofi",
-        "password": "password123",
+        "password": "S0fi2024!",
         "role": "oldie",
-        "registeredDate": "2024-07-17"
+        "registeredDate": "2024-07-17",
+        "name": "Sofía",
+        "lastName": ""
+    },
+    {
+        "username": "Tom",
+        "password": "T0m2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Tomás",
+        "lastName": ""
+    },
+    {
+        "username": "TomFG",
+        "password": "T0mFG2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "Tomás",
+        "lastName": "Fernández Gregoret"
+    },
+    {
+        "username": "Vani",
+        "password": "Van12024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "",
+        "lastName": ""
+    },
+    {
+        "username": "Vanis",
+        "password": "V@n1s2024!",
+        "role": "oldie",
+        "registeredDate": "2024-07-17",
+        "name": "",
+        "lastName": ""
     }
-    // Agrega los demás usuarios "oldies" y otros necesarios aquí
 ]

@@ -246,4 +246,24 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }
+    function logout() {
+        // Aquí iría la lógica para cerrar sesión
+        alert("Sesión cerrada.");
+        // Redirigir al login después de cerrar sesión
+        window.location.href = "login.html";
+    }
+    
+    function goBack() {
+        window.history.back();
+    }
+    
+    // Mostrar el botón de logout si el usuario está logueado
+    document.addEventListener("DOMContentLoaded", function() {
+        const isLoggedIn = sessionStorage.getItem("isLoggedIn");
+        if (isLoggedIn) {
+            document.getElementById("logoutButton").style.display = "block";
+        }
+    });
+    
+    
 });

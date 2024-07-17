@@ -1,21 +1,52 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Login - Avavolley</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Login</h1>
-    <form id="loginForm">
-        <label for="username">Usuario:</label>
-        <input type="text" id="username" name="username" required>
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" required>
-        <button type="submit">Login</button>
-        <button type="button" id="recoverButton">Recuperar Contraseña</button>
-    </form>
-    <script src="js/scripts.js"></script>
+    <header>
+        <h1>Avavolley</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="form.html">Formulario de Inscripción</a></li>
+                <li><a href="datos.html">Datos</a></li>
+                <li><a href="estadisticas.html">Estadísticas</a></li>
+                <li><a href="avavolley.html">Blog</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+            </ul>
+        </nav>
+        <div>
+            <button id="logoutButton" style="display:none;" onclick="logout()">Log Out</button>
+            <button onclick="goBack()">Volver</button>
+        </div>
+    </header>
+    <main>
+        <form id="loginForm">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <input type="submit" value="Login">
+        </form>
+        <div id="message"></div>
+    </main>
+    <script src="scripts.js"></script>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Aquí iría la lógica para validar usuario y contraseña
+            // Por ahora, supongamos que el login es exitoso
+            sessionStorage.setItem("isLoggedIn", true);
+            sessionStorage.setItem("username", username);
+            window.location.href = "index.html";
+        });
+    </script>
 </body>
 </html>

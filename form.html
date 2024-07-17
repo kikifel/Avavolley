@@ -1,17 +1,42 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Inscripción</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Formulario de Inscripción - Avavolley</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Formulario de Inscripción</h1>
-    <div>
-        <button id="signupButton">Anotarse</button>
-        <button id="removeButton">Quitarse</button>
-    </div>
-    <script src="js/scripts.js"></script>
-</body>
-</html>
+    <header>
+        <h1>Avavolley</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="form.html">Formulario de Inscripción</a></li>
+                <li><a href="datos.html">Datos</a></li>
+                <li><a href="estadisticas.html">Estadísticas</a></li>
+                <li><a href="avavolley.html">Blog</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+            </ul>
+        </nav>
+        <div>
+            <button id="logoutButton" onclick="logout()">Log Out</button>
+            <button onclick="goBack()">Volver</button>
+        </div>
+    </header>
+    <main>
+        <form id="signupForm">
+            <input type="submit" value="Anotarse">
+            <input type="button" value="Quitarse" onclick="removeUser()">
+        </form>
+        <div id="message"></div>
+    </main>
+    <script src="scripts.js"></script>
+    <script>
+        document.getElementById('signupForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const username = sessionStorage.getItem("username");
+
+            // Aquí iría la lógica para agregar el usuario a la lista
+            alert(username + " anotado en la lista.");
+       

@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Inscripción - Avavolley</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<link rel="stylesheet" href="css/styles.css">
+<body>
     <header>
         <h1>Avavolley</h1>
         <nav>
@@ -17,34 +21,18 @@
             </ul>
         </nav>
         <div>
-            <button id="logoutButton" style="display:none;" onclick="logout()">Log Out</button>
-            <button onclick="goBack()">Volver</button>
+            <button class="logout-btn" onclick="logout()">Logout</button>
+            <button class="back-btn" onclick="window.location.href='index.html'">Home</button>
         </div>
-    </header>
-</head>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Avavolley</h1>
-               <div>
-            <button id="logoutButton" onclick="logout()">Log Out</button>
-            <button onclick="goBack()">Volver</button>
-        </div>
-    </header>
-    <main>
+      </header>
+        <h1>Formulario de Inscripción</h1>
         <form id="signupForm">
             <input type="submit" value="Anotarse">
             <input type="button" value="Quitarse" onclick="removeUser()">
         </form>
         <div id="message"></div>
-    </main>
     <script src="scripts.js"></script>
-    <script>
-        document.getElementById('signupForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            const username = sessionStorage.getItem("username");
+</body>
+</html>
 
-            // Aquí iría la lógica para agregar el usuario a la lista
-            alert(username + " anotado en la lista.");
-       
+

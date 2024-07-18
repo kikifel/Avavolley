@@ -1,16 +1,25 @@
+/* Global Styles */
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 /* Header Styles */
 header {
     background-color: #1F1F1F;
     padding: 20px;
-    text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 header h1 {
-    margin: 0;
+    margin: 10;
     font-size: 2em;
+    align-items: center;
 }
 
 nav ul {
@@ -33,6 +42,7 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
 /* Main Content Styles */
 main {
     padding: 20px;
@@ -43,7 +53,7 @@ h2 {
     font-size: 1.5em;
 }
 
-/* Login Form Styles */
+/* Datos Form Styles */
 form {
     background-color: #1F1F1F;
     padding: 20px;
@@ -86,10 +96,11 @@ form input[type="submit"]:hover {
     font-weight: bold;
     text-align: center;
 }
+
 /* Blog Styles */
 .blog-post {
     background-color: #1F1F1F;
-    padding: 80px;
+    padding: 20px;
     border-radius: 8px;
     margin: 20px auto;
     width: 90%;
@@ -112,6 +123,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    text-decoration-color: #FFFFFF;
 }
 button {
     background-color: #3B82F6;
@@ -126,3 +138,4 @@ button {
 button:hover {
     background-color: #2563EB;
 }
+

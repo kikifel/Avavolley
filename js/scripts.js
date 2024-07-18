@@ -267,3 +267,21 @@ document.addEventListener("DOMContentLoaded", () => {
     
     
 });
+// Function to load header and footer
+function loadHeaderFooter() {
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.body.insertAdjacentHTML('afterbegin', data);
+            checkLogin();
+        });
+
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.body.insertAdjacentHTML('beforeend', data);
+        });
+}
+
+// Call loadHeaderFooter on page load
+document.addEventListener('DOMContentLoaded', loadHeaderFooter);

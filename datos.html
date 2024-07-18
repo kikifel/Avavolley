@@ -10,18 +10,25 @@
 
 <body>
     <h1>Datos</h1>
+
     <form id="statsForm">
+        <div class="statsForm-container">
         <label for="team">Equipo:</label>
         <input type="text" id="team" name="team" required>
         <label for="position">Posición:</label>
         <input type="text" id="position" name="position" required>
-        <label for="result">Resultado:</label>
-        <input type="radio" id="win" name="result" value="win" required>Ganado
-        <input type="radio" id="loss" name="result" value="loss" required>Perdido
+        <label for="result">Ganados:</label>
+        <input type="number" id="ganados" name="ganados" required>
+        <label for="result">Perdidos:</label>
+        <input type="number" id="perdidos" name="perdidos" required>
         <label for="performance">Desempeño:</label>
-        <input type="text" id="performance" name="performance" required>
+        <input type="radio" id="excelente" name="performance" value="excelente" required>excelente
+        <input type="radio" id="bueno" name="performance" value="bueno" required>bueno
+        <input type="radio" id="moderado" name="performance" value="moderado" required>moderado
+
         <button type="submit">Guardar Estadísticas</button>
     </form>
+    </div>
     <script src="js/scripts.js"></script>
 </body>
 </html>

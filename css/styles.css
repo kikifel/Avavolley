@@ -216,4 +216,20 @@ button:hover {
     background-color: #2563EB;
 }
 
+/* Styles for datos.html only */
+.statsForm-container{
+    align-items: center;
+ /*   background-color: #3a3838;
+    /* Add any styles specific to the login form and its container here */
+}
+.statsForm-container input[type="text"] {
+    width: 100%; /* Make the input span the full width of the container */
+    border: none; /* Remove the default border */
+    outline: none; /* Remove the focus outline */
+    font-size: 16px; /* Set the font size */
+    padding: 0; /* Remove default padding */
 
+}
+
+
+        

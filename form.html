@@ -20,15 +20,19 @@
                 <li><a href="perfil.html">Perfil</a></li>
             </ul>
         </nav>
+
         <div>
             <button class="logout-btn" onclick="logout()">Logout</button>
             <button class="back-btn" onclick="window.location.href='index.html'">Home</button>
+
         </div>
       </header>
         <h1>Formulario de Inscripción</h1>
         <form id="signupForm">
-            <input type="submit" value="Anotarse">
-            <input type="button" value="Quitarse" onclick="removeUser()">
+            <div class="signupForm-container">
+            <input class="btntest" type="submit" value="Anotarse">
+            <input class="btntest" type="button" value="Quitarse" onclick="removeUser()">
+        </div>
         </form>
         <div id="message"></div>
     <script src="scripts.js"></script>
